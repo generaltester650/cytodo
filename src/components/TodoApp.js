@@ -78,7 +78,7 @@ export default class TodoApp extends Component {
       <Router>
         <div>
           <header className="header">
-            <h1>todos</h1>
+            <h1>Todos</h1>
             {this.state.error? <span className="error">Oh no!</span> : null}
             <TodoForm 
             
