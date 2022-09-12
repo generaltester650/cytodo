@@ -9,7 +9,7 @@ describe('Smoke Text', () =>{
             let items = [
                 {text:'Buy Milk',expectedLength:1},
                 {text:'Buy Egg',expectedLength:2},
-                {text:'Buy Bread',expectedLength:2}
+                {text:'Buy Bread',expectedLength:3}
             ]
             cy.visit('/')
             cy.server()
